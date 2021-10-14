@@ -1,0 +1,78 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #ffffff;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 236, 210, 1));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 236, 210, 1))
+  } 
+ 
+  .carousel-indicators li {
+    background-color: #282828;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+  } 
+
+
+.cuweather{
+  width: 350px;
+  height: 100px;
+  border-radius: 25px;
+  background:white ;
+  padding: 50px;
+  margin: 20px;
+}
+.afterhours{
+  width: 350px;
+  height: 100px;
+  border-radius: 25px;
+  background:white ;
+  padding: 50px;
+  margin: 20px;
+}
+
+.dayweather{
+  width: 350px;
+  height: 100px;
+  border-radius: 25px;
+  background:white ;
+  padding: 50px;
+  margin: 20px;
+}
+.weatherbox{
+  margin-left: auto;
+  margin-right: auto;
+  width: 30rem;
+  margin-top: 150px;
+}
+body.color{
+   background:lightsteelblue;
+}
+label{
+   font-size:xx-large;
+   display:block;
+   
+}
+/* .symbol{
+   display: flex;
+   justify-items: center;
+} */
+.flex-container{
+  
+  
+  margin-top: 2px;
+  padding-top: 2px;
+
+}
+#hourstemp{
+  display:flex;
+  justify-content: space-between;
+}
+#hourstime{
+  display:flex;
+  justify-content: space-between;
+}
+

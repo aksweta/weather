@@ -1,0 +1,49 @@
+<!-- https://rapidapi.com/community/api/open-weather-map/ -->
+
+
+
+<!-- https://www.w3schools.com/icons/fontawesome5_icons_weather.asp -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Open Weather Map API Documentation</title>
+    <link rel='stylesheet' href='weather.css' />
+<!--    
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>     //  having error with icon script -->
+
+</head>
+
+<body class="color">
+    <div class="weatherbox">
+    <div class ="cuweather">
+           <h1 style="display:inline-block; font-size:50px;" id="temp"></h1>
+           <label for="tempdisplay" style="display:inline-block; font-size:50px;"> °C </label> 
+           <!-- <div class="symbol">
+               <i class='fas fa-sun' style='font-size:48px;color:yellow'></i>
+           </div> -->
+           
+    </div>
+    <div class="afterhours">
+        <div class="flex-container">
+        <div id="hourstemp" >
+         </div>
+         <div id="hourstime" >
+        </div>
+        </div>
+
+    </div>
+    <div class="dayweather">
+
+    </div>
+    </div>
+    
+    <script src='weather.js' type='text/javascript'> </script> 
+</body>
+
+</html>
